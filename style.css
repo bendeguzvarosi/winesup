@@ -293,3 +293,38 @@
   .home-hero{height:auto;min-height:0;padding-top:55px;padding-bottom:20px;grid-template-rows:auto;overflow:visible}
   .home-hero-photo{height:300px;min-height:0}
 }
+
+
+/* About page: editorial two-column introduction and clearer section rhythm */
+.about-intro{padding-top:76px;padding-bottom:82px}
+.about-intro h1{margin:0 0 36px}
+.about-intro-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,.92fr);gap:5vw;align-items:stretch}
+.about-intro-copy{max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:22px 30px;align-content:start}
+.about-intro-copy p{font-size:16px;line-height:1.8}
+.about-intro-copy p:first-child{grid-column:1/-1;font-size:21px;line-height:1.55;color:var(--ink);max-width:650px}
+.about-intro-copy .about-slogan{grid-column:1/-1;margin-top:4px;font-size:30px;line-height:1.2}
+.about-intro-photo{margin:0;min-height:100%;display:flex;flex-direction:column}
+.about-intro-photo img{width:100%;height:100%;min-height:440px;max-height:560px;object-fit:cover;display:block}
+.about-intro-photo figcaption{padding:12px 0;border-bottom:1px solid var(--line);font-size:10px;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted)}
+.team-section{padding-top:75px}
+.team-section h2{margin-top:0}
+.about-markets-intro{margin-top:80px;max-width:850px}
+.about-markets-intro h2{display:none}
+.about-markets-intro p:not(.eyebrow){font-size:16px;line-height:1.8}
+.about-markets{grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);gap:4vw;align-items:start}
+.about-markets .markets-heading{margin:0}
+.about-markets h2{margin:0}
+.about-markets .country-chips{margin:0;justify-content:flex-start;align-content:start}
+.about-markets .country-chip{justify-content:flex-start}
+.contact-band-copy{max-width:760px;font-size:17px;line-height:1.8;color:#e7d9d4;margin:-8px 0 30px}
+@media(max-width:800px){
+ .about-intro{padding-top:58px;padding-bottom:62px}
+ .about-intro-layout{grid-template-columns:1fr;gap:32px}
+ .about-intro-copy{grid-template-columns:1fr;gap:17px}
+ .about-intro-copy p:first-child,.about-intro-copy .about-slogan{grid-column:auto}
+ .about-intro-copy p:first-child{font-size:19px}
+ .about-intro-photo img{min-height:0;height:300px}
+ .about-markets{grid-template-columns:1fr;gap:24px}
+ .about-markets .country-chips{margin:0}
+ .contact-band-copy{font-size:15px}
+}
