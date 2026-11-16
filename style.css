@@ -237,3 +237,30 @@
   .home-step h2{font-size:18px}
   .home-step p{font-size:13.2px}
 }
+
+
+/* WinesUp content brief — homepage volume, team profiles and country chips */
+.home-volume-block{margin-top:34px;padding:26px 0 0;border-top:1px solid rgba(101,45,56,.48);max-width:620px}
+.home-volume-block>p:first-child{font-size:15px;color:var(--muted);margin:0 0 8px}
+.home-volume-block strong{display:flex;align-items:baseline;gap:14px;color:var(--wine);font-family:var(--display);font-size:clamp(22px,2.4vw,32px);line-height:1.1}
+.home-volume-block strong span:first-child{font-size:clamp(48px,5.4vw,76px);font-weight:800;letter-spacing:-4px}
+.home-volume-block>p:nth-of-type(2){margin:2px 0 10px;font-size:13px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink)}
+.home-volume-block small{display:block;max-width:500px;color:var(--muted);font-size:13px;line-height:1.7}
+.about-intro-copy{max-width:850px}
+.about-intro-copy p{font-size:17px;line-height:1.85}
+.about-intro-copy .about-slogan{margin-top:26px;color:var(--wine);font:italic 34px/1.2 var(--serif)}
+.team-intro{max-width:780px;color:var(--muted);font-size:16px;line-height:1.85;margin:18px 0 36px}
+.team-placeholders.team-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.team-card{display:grid;grid-template-columns:minmax(150px,.7fr) 1fr;gap:24px;align-items:center}
+.team-card img{width:100%;height:300px;object-fit:cover;object-position:center 30%;background:var(--paper2)}
+.team-card h3{font:600 25px/1.2 var(--display);margin:0 0 8px}
+.team-card p{font-size:14px;line-height:1.75;color:var(--muted)}
+.team-card .team-role{color:var(--wine);font-weight:700}
+.about-markets-intro{margin-top:85px;max-width:850px}
+.about-markets-intro h2{font:600 clamp(32px,4vw,52px)/1.1 var(--display);letter-spacing:-2px;margin:12px 0 20px}
+.about-markets-intro p:not(.eyebrow){font-size:16px;line-height:1.85;color:var(--muted)}
+.country-chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.country-chip{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(101,45,56,.24);border-radius:999px;padding:10px 17px;font-size:14px;background:rgba(255,255,255,.18)}
+.country-chip b{font-size:18px;font-weight:400;line-height:1}
+@media(max-width:850px){.team-placeholders.team-cards{grid-template-columns:1fr}.team-card{grid-template-columns:160px 1fr}.home-volume-block{max-width:100%}}
+@media(max-width:520px){.team-card{grid-template-columns:1fr}.team-card img{height:360px;max-width:100%}.about-intro-copy p{font-size:15px}.about-intro-copy .about-slogan{font-size:27px}.country-chip{font-size:13px;padding:9px 13px}}
