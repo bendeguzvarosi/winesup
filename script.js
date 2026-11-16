@@ -28,7 +28,7 @@ Object.assign(translations.hu, {
   aboutPageSupport:'Munkánk pedig nem áll meg az értékesítésnél. A megfelelő alapanyagok és csomagolóanyagok beszerzésétől a termékfejlesztésen és a saját márkák kialakításán át a gyártás-előkészítésig számos területen támogatjuk partnereinket.',
   aboutSlogan:'A pincétől a polcig gondolkodunk.',
   teamTitle:'Akik a WinesUp mögött állnak',
-  teamLead:'A borpiacot nemcsak a borokon keresztül ismerjük. Dolgoztunk a kereskedelem és az értékesítés különböző területein, így pontosan tudjuk, mit keresnek a vevők, és mi szükséges ahhoz, hogy egy termék valódi piaci sikert érjen el.',
+  teamLead:'A borpiacot nem csak a borokon keresztül ismerjük. Dolgoztunk a kereskedelem és az értékesítés különböző területein, így pontosan tudjuk, mit keresnek a vevők, és mi szükséges ahhoz, hogy egy termék valódi piaci sikert érjen el.',
   bordiRole:'[Szerep később]', bordiBio:'[Bemutatkozás később]',
   radvanyiRole:'[Szerep később]', radvanyiBio:'[Bemutatkozás később]',
   marketsIntroTitle:'Helyi tudás. Nemzetközi kapcsolatok.',
