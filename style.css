@@ -342,3 +342,25 @@
  .about-intro-copy p:first-child{font-size:18px}
  .team-slogan{margin:54px 0 36px;font-size:clamp(30px,8vw,42px)}
 }
+
+
+/* About page photo gallery and owners portrait */
+.about-photo-gallery{display:grid;grid-template-columns:1.15fr .85fr;grid-template-rows:1fr 1fr;gap:14px;min-height:520px}
+.about-photo-gallery figure{margin:0;min-width:0;overflow:hidden;position:relative}
+.about-photo-gallery img{display:block;width:100%;height:100%;object-fit:cover}
+.about-photo-main{grid-row:1/3;min-height:520px}
+.about-photo-secondary{min-height:245px}
+.about-photo-detail{min-height:245px;display:flex;flex-direction:column}
+.about-photo-detail img{flex:1;min-height:190px}
+.about-photo-detail figcaption{padding:10px 0 0;font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted)}
+.team-intro-layout{display:grid;grid-template-columns:minmax(0,.9fr) minmax(300px,1.1fr);gap:5vw;align-items:center;margin:24px 0 48px}
+.team-intro-layout .team-intro{margin:0;max-width:620px;font-size:17px;line-height:1.85}
+.team-group-photo{display:block;width:100%;max-height:430px;object-fit:cover;object-position:center 42%}
+@media(max-width:800px){
+ .about-photo-gallery{min-height:0;grid-template-columns:1fr 1fr;grid-template-rows:240px 190px;gap:10px}
+ .about-photo-main{grid-row:auto;grid-column:1/-1;min-height:0}
+ .about-photo-secondary,.about-photo-detail{min-height:0}
+ .about-photo-detail img{min-height:145px}
+ .team-intro-layout{grid-template-columns:1fr;gap:22px;margin:20px 0 36px}
+ .team-group-photo{max-height:360px}
+}
