@@ -378,3 +378,19 @@
  .about-single-photo{min-height:300px}
  .about-single-photo img{min-height:300px;max-height:420px}
 }
+
+
+/* Global burgundy separators and a photographic services introduction */
+:root{--line:rgba(101,45,56,.30)}
+.footer-bottom{border-top-color:rgba(193,140,145,.38)}
+.services-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,.88fr);gap:6vw;align-items:center}
+.services-intro-copy{max-width:650px}
+.services-intro h1{margin-top:0}
+.services-intro-photo{margin:0;height:350px;overflow:hidden;background:var(--paper2)}
+.services-intro-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.service-detail-list article{border-bottom-color:var(--wine2);border-bottom-color:rgba(101,45,56,.38)}
+.service-detail-list article:first-child{border-top:1px solid rgba(101,45,56,.38)}
+@media(max-width:800px){
+ .services-intro{grid-template-columns:1fr;gap:32px}
+ .services-intro-photo{height:300px}
+}
