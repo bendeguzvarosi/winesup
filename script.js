@@ -12,7 +12,7 @@ Object.assign(translations.hu, {
 
   aboutPhotoCaption:'A borászat értéke a szőlőben kezdődik.',
   aboutContactCopy:'Legyen szó új értékesítési lehetőségekről, exportpiacra lépésről, termékfejlesztésről vagy egy új üzleti együttműködésről, keressünk közösen megoldást.',
-  teamLead:'A borpiacot nemcsak a borokon keresztül ismerjük. Dolgoztunk a kereskedelem és az értékesítés különböző területein, így pontosan tudjuk, mit keresnek a vevők, és mi szükséges ahhoz, hogy egy termék valódi piaci sikert érjen el.'
+  teamLead:'A borpiacot nem csak a borokon keresztül ismerjük. Dolgoztunk a kereskedelem és az értékesítés különböző területein, így pontosan tudjuk, mit keresnek a vevők, és mi szükséges ahhoz, hogy egy termék valódi piaci sikert érjen el.'
 ,
   heroLead:'Értékesítési és üzletfejlesztési partnerként dolgozunk együtt borászatokkal. Megtaláljuk a megfelelő vevőket, felépítjük és gondozzuk az üzleti kapcsolatokat, valamint a piaci igényekhez igazítjuk a kínálatot. Hogy Ön arra koncentrálhasson, amihez a legjobban ért: a borra.',
   step1Text:'Megismerjük a borászatot, a borokat, a mögöttük álló szemléletet és az üzleti célokat.',
