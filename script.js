@@ -9,6 +9,11 @@ const translations = {
 
 // Updated content from the WinesUp final content brief
 Object.assign(translations.hu, {
+
+  aboutPhotoCaption:'A borászat értéke a szőlőben kezdődik.',
+  aboutContactCopy:'Legyen szó új értékesítési lehetőségekről, exportpiacra lépésről, termékfejlesztésről vagy egy új üzleti együttműködésről, keressünk közösen megoldást.',
+  teamLead:'A borpiacot nemcsak a borokon keresztül ismerjük. Dolgoztunk a kereskedelem és az értékesítés különböző területein, így pontosan tudjuk, mit keresnek a vevők, és mi szükséges ahhoz, hogy egy termék valódi piaci sikert érjen el.'
+,
   heroLead:'Értékesítési és üzletfejlesztési partnerként dolgozunk együtt borászatokkal. Megtaláljuk a megfelelő vevőket, felépítjük és gondozzuk az üzleti kapcsolatokat, valamint a piaci igényekhez igazítjuk a kínálatot. Hogy Ön arra koncentrálhasson, amihez a legjobban ért: a borra.',
   step1Text:'Megismerjük a borászatot, a borokat, a mögöttük álló szemléletet és az üzleti célokat.',
   step2Text:'Kialakítjuk a megfelelő portfóliót, az árpozíciót és a piacra lépés stratégiáját.',
@@ -44,6 +49,10 @@ Object.assign(translations.hu, {
   service5Text:'Optimalizáljuk az alapanyagok és csomagolóanyagok – többek között palackok, dugók, címkék és kartondobozok – beszerzését. Koordináljuk a beszállítókkal való egyeztetést, valamint a nyomdai és gyártási folyamatok előkészítését, hogy a termékek a megfelelő minőségben és költséghatékonyan készüljenek el.'
 });
 Object.assign(translations.en, {
+
+  aboutPhotoCaption:'The value of a winery begins in the vineyard.',
+  aboutContactCopy:'Whether you are exploring new sales opportunities, entering export markets, developing a product or considering a new business partnership, let’s find the right solution together.'
+,
   heroLead:'We work with wineries as a sales and business development partner. We find the right buyers, build and nurture commercial relationships, and adapt portfolios to market needs — so you can focus on what you do best: making wine.',
   step1Text:'We get to know the winery, its wines, the philosophy behind them and its business goals.',
   step2Text:'We shape the right portfolio, price positioning and go-to-market strategy.',
