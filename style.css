@@ -328,3 +328,17 @@
  .about-markets .country-chips{margin:0}
  .contact-band-copy{font-size:15px}
 }
+
+
+/* About page refinements */
+.about-intro-copy{display:flex;flex-direction:column;gap:20px;align-content:initial}
+.about-intro-copy p,
+.about-intro-copy p:first-child{grid-column:auto;max-width:none;margin:0;font-size:16px;line-height:1.8;color:var(--muted)}
+.about-intro-copy p:first-child{font-size:20px;line-height:1.6;color:var(--ink)}
+.about-intro-copy .about-slogan{display:none}
+.team-slogan{margin:76px 0 54px;font-family:'Manrope',sans-serif;font-size:clamp(34px,4.2vw,58px);font-weight:700;line-height:1.08;letter-spacing:-.045em;color:#22211f;max-width:900px}
+@media(max-width:800px){
+ .about-intro-copy{display:flex;flex-direction:column;gap:16px}
+ .about-intro-copy p:first-child{font-size:18px}
+ .team-slogan{margin:54px 0 36px;font-size:clamp(30px,8vw,42px)}
+}
