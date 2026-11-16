@@ -264,3 +264,32 @@
 .country-chip b{font-size:18px;font-weight:400;line-height:1}
 @media(max-width:850px){.team-placeholders.team-cards{grid-template-columns:1fr}.team-card{grid-template-columns:160px 1fr}.home-volume-block{max-width:100%}}
 @media(max-width:520px){.team-card{grid-template-columns:1fr}.team-card img{height:360px;max-width:100%}.about-intro-copy p{font-size:15px}.about-intro-copy .about-slogan{font-size:27px}.country-chip{font-size:13px;padding:9px 13px}}
+
+
+/* Homepage layout correction — keep enlarged typography without clipping content */
+.home-main{
+  height:auto;
+  min-height:calc(100svh - 96px);
+  overflow:visible;
+}
+.home-hero{
+  height:auto;
+  min-height:calc(100svh - 96px);
+  padding-top:clamp(42px,5vh,64px);
+  padding-bottom:28px;
+  grid-template-rows:auto auto;
+  align-items:center;
+  overflow:visible;
+}
+.home-hero-copy{align-self:center}
+.home-hero-photo{
+  height:min(58vh,500px);
+  min-height:380px;
+}
+.home-volume-block{margin-top:26px;padding-top:20px}
+.home-bottom{margin-top:28px}
+@media(max-width:800px){
+  .home-main{height:auto;min-height:calc(100svh - 82px);overflow:visible}
+  .home-hero{height:auto;min-height:0;padding-top:55px;padding-bottom:20px;grid-template-rows:auto;overflow:visible}
+  .home-hero-photo{height:300px;min-height:0}
+}
